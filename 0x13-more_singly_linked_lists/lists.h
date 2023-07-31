@@ -1,5 +1,7 @@
 #ifndef LISTS_H
 #define LISTS_H
+
+#include <stdio.h>
 #include <stdlib.h>
 
 /**
@@ -33,3 +35,4 @@ size_t free_listint_safe(listint_t **h);
 listint_t *find_listint_loop(listint_t *head);
 
 #endif
+
